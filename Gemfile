@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails'
@@ -11,8 +10,7 @@ gem 'rails'
 # in production environments by default.
 
 group :development do
-gem 'sqlite3'
-
+  gem 'sqlite3'
 end
 
 gem 'heroku'
