@@ -10,14 +10,17 @@ gem 'rails', '4.0.1'
 # Gems used only for assets and not required
 # in production environments by default.
 group :development do
-	gem 'sqlite3', '1.3.8'
+	gem 'pg'
 end
-
+  
+  gem 'heroku'
   gem 'sass-rails',   '4.0.1'
   gem 'uglifier', '2.1.1'
   gem 'coffee-rails', '4.0.1'
   gem 'jquery-rails', '3.0.4'
   gem 'turbolinks', '1.1.1'
+  gem 'bootstrap-sass'
+  gem 'formtastic-bootstrap'
   gem 'jbuilder', '1.0.2'
 
 group :doc do
