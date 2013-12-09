@@ -9,7 +9,12 @@ gem 'rails', '4.0.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
-gem 'pg'
+
+group :development do
+gem 'sqlite3'
+
+end
+
 gem 'heroku'
 gem 'sass-rails',   '4.0.1'
 gem 'uglifier', '2.1.1'
@@ -43,4 +48,5 @@ end
 # gem 'debugger'
 group :production do
 	gem 'rails_12factor', '0.0.2'
+  gem 'pg'
 end
