@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 #ruby-gemset=railstutorial_rails_4_0
-
+ruby '1.9.3'
 gem 'rails'
 
 # Bundle edge Rails instead:
