@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 #ruby-gemset=railstutorial_rails_4_0
 ruby '1.9.3'
-gem 'rails'
+gem 'rails', "4.0.0"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,18 +11,24 @@ gem 'rails'
 
 group :development do
   gem 'sqlite3'
+  gem 'rspec-rails'
 end
 
 gem 'heroku'
-gem 'sass-rails',   '4.0.1'
-gem 'uglifier', '2.1.1'
-gem 'coffee-rails', '4.0.1'
-gem 'jquery-rails', '3.0.4'
-gem 'turbolinks', '1.1.1'
+
+group :test do
+	gem 'selenium-webdriver'
+	gem 'capybara'
+end
+
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder'
 gem 'bootstrap-sass'
 gem 'formtastic-bootstrap'
-gem 'jbuilder', '1.0.2'
-gem 'rspec-rails'
 
 group :doc do
 	gem 'sdoc', '0.3.20', require: false
