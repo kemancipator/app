@@ -7,4 +7,10 @@ def home
 
   def about
   end
+  def contactus
+  end
+  def news
+  end
+  def trial
+  end
 end

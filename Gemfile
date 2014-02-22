@@ -15,10 +15,15 @@ group :development do
 end
 
 gem 'heroku'
+gem 'guard-rspec'
+gem 'wdm'
 
 group :test do
 	gem 'selenium-webdriver'
 	gem 'capybara'
+	gem 'spork-rails'
+	gem 'guard-spork'
+	gem 'childprocess'
 end
 
 gem 'sass-rails'
