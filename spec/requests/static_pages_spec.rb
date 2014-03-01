@@ -53,27 +53,4 @@ describe "Contact Us page" do
       expect(page).to have_title("Ruby on Rails Tutorial Sample App | Contact Us")
     end
   end
-  describe "News page" do
-
-    it "should have the content 'News'" do
-      visit '/static_pages/news'
-      expect(page).to have_content('News')
-    end
-
-    it "should have the title 'News'" do
-      visit '/static_pages/news'
-      expect(page).to have_title("Ruby on Rails Tutorial Sample App" | News")
-    end
-  describe "Trial page" do
-
-    it "should have the content 'Trial'" do
-      visit '/static_pages/trial'
-      expect(page).to have_content('Trial')
-    end
-
-    it "should have the title 'Trial'" do
-      visit '/static_pages/trial'
-      expect(page).to have_title("Ruby on Rails Tutorial Sample App" | Trial")
-    end
-  end
-end
+  
