@@ -9,8 +9,4 @@ def home
   end
   def contactus
   end
-  def news
-  end
-  def trial
-  end
 end
